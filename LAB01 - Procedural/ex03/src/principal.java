@@ -366,7 +366,7 @@ public class principal {
 
 
     }
-    
+
     public static void ex15(){
         Scanner sc = new Scanner(System.in);
         System.out.println("<< Valores iguais >>");
