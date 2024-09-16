@@ -1,4 +1,4 @@
-public class CandidatoEncapsulado {
+public class Candidatos {
     private String nome;
     private String dataNasc;
     private String genero;
@@ -6,6 +6,28 @@ public class CandidatoEncapsulado {
     private double bens;
     private boolean reeleicao;
     private int nmrPartido;
+
+    public Candidatos (){ // Construtor sem parâmetro
+        this.nome = null;
+        this.dataNasc = null;
+        this.genero = null;
+        this.bens = 0;
+        this.reeleicao = false;
+        this.nmrPartido = 0;
+        this.cargo = null;
+    }
+
+    public Candidatos(String nome, String dataNasc, String genero,  double bens, boolean reeleicao,
+                      int nmrPartido,  String cargo  ){
+        this.nome = nome;
+        this.dataNasc = dataNasc;
+        this.genero = genero;
+        this.bens = bens;
+        this.reeleicao = reeleicao;
+        this.nmrPartido = nmrPartido;
+        this.cargo = cargo;
+    }
+
 
 
 
@@ -22,7 +44,7 @@ public class CandidatoEncapsulado {
         this.cargo = cargo;
     }
     public void setBens(double bens) {
-         this.bens = bens;
+        this.bens = bens;
     }
     public void setReeleicao(boolean reeleicao){
         this.reeleicao = reeleicao;
@@ -58,5 +80,4 @@ public class CandidatoEncapsulado {
                 " reais. É candidato à reeleição? " + reeleicao + ". O número do partido é: " + nmrPartido +
                 " e concorre a " + cargo + ".");
     }
-
 }

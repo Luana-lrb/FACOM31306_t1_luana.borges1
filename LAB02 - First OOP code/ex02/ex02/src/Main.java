@@ -10,6 +10,7 @@ public class Main {
         darlan.setNmrPartido(40);
 
 
+
         CandidatoEncapsulado ilson = new CandidatoEncapsulado();
         ilson.setNome("ILSON TOLFO TONDO");
         ilson.setDataNasc("18/11/1958");
