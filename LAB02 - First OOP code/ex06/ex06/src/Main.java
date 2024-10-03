@@ -11,6 +11,7 @@ public class Main {
         politicos2[1] = new Candidatos("SILVANA MARIA CAVALCANTE DA COSTA PINTO", "20/03/1963","fem",
                 963872.03,true,11,"prefeito");
 
+
         Eleicao[] eleicaos = new Eleicao[2];
         eleicaos[1] = new Eleicao("Curralinho",33903,politicos1,politicos1[0]);
         eleicaos[0] = new Eleicao("Flexeiras",9618,politicos2,politicos2[1]);

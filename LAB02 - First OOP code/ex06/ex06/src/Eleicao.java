@@ -19,5 +19,8 @@ public class Eleicao {
         System.out.print("O candidato vencedor é: ");
         vencedor.panfleto();
     }
+    public void maisBens(){
+        for(Cand)
+    }
 
 }
