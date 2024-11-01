@@ -10,7 +10,7 @@ public class Main {
 
         System.out.println(c4.mostrar_atributos());
         System.out.println(c5.mostrar_atributos());
-        System.out.println(c5.mostar_atributos_super());
+        System.out.println(c5.mostrar_atributos_super());
         System.out.println(c6.mostrar_atributos());
         System.out.println(c6.mostrar_atributos_super());
 

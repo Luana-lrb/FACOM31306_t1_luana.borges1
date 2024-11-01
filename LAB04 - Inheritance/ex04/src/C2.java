@@ -13,7 +13,7 @@ public class C2 extends C1 {
         this.religiao = religiao;
         this.cra = cra;
         this.hobby = hobby;
-        System.out.println("Classe C2:  chamada do construtor com parametros");
+        System.out.println("Classe C2: chamada do construtor com parametros");
     }
 
     public String getReligiao() {
@@ -50,7 +50,7 @@ public class C2 extends C1 {
                 '}';
     }
 
-    public String mostar_atributos_super() {
+    public String mostrar_atributos_super() {
         return super.mostrar_atributos() + "C2{" +
                 "religiao='" + religiao + '\'' +
                 ", cra=" + cra +

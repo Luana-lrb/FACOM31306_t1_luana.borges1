@@ -52,7 +52,7 @@ public class C3 extends C2 {
                 '}';
     }
 
-    public String mostar_atributos_super() {
+    public String mostrar_atributos_super() {
         return  super.mostrar_atributos_super() + "C3{" +
                 "nacionalidade='" + nacionalidade + '\'' +
                 ", estadoCivil='" + estadoCivil + '\'' +
