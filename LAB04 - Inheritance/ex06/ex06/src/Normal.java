@@ -1,4 +1,13 @@
-package PACKAGE_NAME;
+public class Normal extends Ingresso{
 
-public class Normal {
+    public Normal() {
+    }
+
+    public Normal(double valor) {
+        super(valor);
+    }
+
+    public void ingressoNormal(){
+        System.out.println(super.toString());
+    }
 }
