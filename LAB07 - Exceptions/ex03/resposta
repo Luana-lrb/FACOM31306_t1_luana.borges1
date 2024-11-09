@@ -1,0 +1,13 @@
+-> O principal objetivo do throw é lançar uma exceção explicitamente em um ponto específico do código,
+e ele é normalmente seguido por uma instância de uma exceção. Pode ser usado dentro de um método ou
+bloco de código para lançar uma exceção sempre que uma condição específica for atendida.
+
+-> Já o throws é usado na assinatura do método para declarar que um método pode lançar exceções específicas.
+Ele informa ao compilador e aos chamadores do método que eles devem lidar com essas exceções.E ele é normalmente
+seguido por uma lista de exceções separadas por vírgulas.
+
+
+Ou seja o throw é usado para lançar uma exceção, enquanto throws é usado para declarar que um método pode
+lançar exceções e o throw é usado dentro do corpo do método, enquanto throws é usado na assinatura do método.
+Além disso,throw é uma ação que ocorre durante a execução do programa, enquanto throws é uma indicação para o
+compilador e para os desenvolvedores de que exceções precisam ser tratadas.
