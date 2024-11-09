@@ -5,12 +5,12 @@ public class Produto implements Classificavel {
         this.codigo = codigo;
     }
 
-    public boolean eMenorQue (Classificavel o) {
+    public int eMenorQue (Classificavel o) {
         Produto compara = ( Produto ) o;
         if ( this . codigo < compara . codigo ) {
-            return true ;
+            return 1 ;
         } else {
-            return false ;
+            return 0;
         }
     }
 

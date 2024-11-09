@@ -5,12 +5,12 @@ public class Servico implements Classificavel {
         this.preco = preco;
     }
 
-    public boolean eMenorQue (Classificavel o) {
+    public int eMenorQue (Classificavel o) {
         Servico compara = ( Servico ) o;
         if ( this.preco < compara.preco ) {
-            return true ;
+            return 1 ;
         } else {
-            return false ;
+            return 0 ;
         }
     }
 

@@ -5,12 +5,12 @@ public class Cliente implements Classificavel {
         this.nome = nome;
     }
 
-    public boolean eMenorQue (Classificavel o) {
+    public int eMenorQue (Classificavel o) {
         Cliente compara = ( Cliente ) o;
         if ( (nome).compareTo(compara.nome)==-1) {
-            return true ;
+            return 1 ;
         } else {
-            return false ;
+            return 0 ;
         }
     }
 
