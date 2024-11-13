@@ -2,9 +2,8 @@ public class Medico {
     private String nome;
     private String especialidade;
 
-    public Medico(String nome, String especialidade) {
+    public Medico(String nome) {
         this.nome = nome;
-        this.especialidade = especialidade;
     }
 
     public String getNome() {return nome;}

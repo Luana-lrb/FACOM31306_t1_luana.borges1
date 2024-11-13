@@ -8,7 +8,7 @@ public class Casa {
     public Casa(int numero, String endereco, Comodo[] comodos) {
         this.numero = numero;
         this.endereco = endereco;
-        this.comodos = comodos;
+        this.comodos = new Comodos {comodos[0],comodos[1],comodos[2],comodos[3]};
     }
 
     public int getNumero() {return numero;}
